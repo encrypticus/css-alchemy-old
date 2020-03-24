@@ -4,8 +4,8 @@
   $block-name: &; // имя блока - .main-nav
 
   &__list { // списки
-    margin: 0;
     padding: 0;
+    margin: 0;
     list-style-type: none;
     user-select: none;
 
@@ -35,8 +35,8 @@
       top: 0;
 
       @include for-phone-landscape-down {
-        transform: scaleY(0);
         top: 100%;
+        transform: scaleY(0);
       }
     }
 
@@ -77,8 +77,8 @@
         position: absolute;
         top: 15px;
         left: 12px;
-        font-family: inherit;
         font-size: 18px;
+        font-family: inherit;
       }
 
       //&:first-child { // декоративный элемент для 1го элемента списка верхнего уровня
