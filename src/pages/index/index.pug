@@ -1,16 +1,10 @@
-extends ../../pug/layout
-include ../../pug/includes
-
-append style
-  include ../../pug/favicons
+extends ../../pug/page-layout
 
 block title
   title Home
 
-block content
-  body
-    #menu-wrapper
-      .page
-        .page__inner
-          .wrapper
-            include ../../blocks/page-header/page-header
+block page-content
+  p content
+
+block footer-content
+  p footer
