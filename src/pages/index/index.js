@@ -7,3 +7,5 @@ import '../../components/site-logo/site-logo';
 import '../../components/hamburger/hamburger';
 import '../../components/mmenu/mmenu';
 import '../../components/heading/heading';
+import '../../components/card/card';
+import '../../blocks/cards/cards';
