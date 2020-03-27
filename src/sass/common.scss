@@ -31,6 +31,14 @@ html, body {
      left: 0;
      background-color: rgba(#fff, .8);
    }
+
+  &__content {
+    padding: pxToRem(65) pxToRem(117);
+  }
+
+  &__heading {
+    text-align: center;
+  }
 }
 
 .wrapper {
