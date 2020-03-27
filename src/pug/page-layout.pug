@@ -1,0 +1,22 @@
+extends layout
+include includes
+
+append style
+  include favicons
+
+block title
+  title
+
+block content
+  body
+    #menu-wrapper
+      .page
+        .page__inner
+          .wrapper
+            include ../blocks/page-header/page-header
+
+            main.page-content
+              block page-content
+
+            footer.page-footer
+              block footer-content
