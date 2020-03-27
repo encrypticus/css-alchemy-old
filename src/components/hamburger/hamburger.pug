@@ -4,7 +4,7 @@ mixin hamburger(effect = 'simple')
     if (typeof effect !== 'undefined' && effect)
       effectType += `hamburger--${effect}`;
 
-  button.hamburger(class=effectType)
+  button.hamburger(class=effectType)&attributes(attributes)
     span.hamburger-inner
       span.line-top
         span.line-top-left
