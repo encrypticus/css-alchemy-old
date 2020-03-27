@@ -5,3 +5,4 @@ import '../../blocks/page-header/page-header';
 import '../../components/socials/socials';
 import '../../components/site-logo/site-logo';
 import '../../components/hamburger/hamburger';
+import '../../components/mmenu/mmenu';
